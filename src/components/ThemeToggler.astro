@@ -1,4 +1,4 @@
-<button aria-label="Theme toogler">
+<button aria-label="Theme toogler" data-theme-toggle>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -50,10 +50,10 @@
 <script>
   const DARK_THEME_CLASS = 'dark';
   const COLOUR_MODE = 'COLOUR_MODE';
-  const LIGHT_MODE = 'LIGHT';
+  const LIGHT_THEME = 'LIGHT';
   const DARK_THEME = 'DARK';
 
-  const toggle = document.querySelector('button');
+  const toggle = document.querySelector('[data-theme-toggle]');
   const rootEl = document.documentElement;
 
   toggle &&
@@ -62,7 +62,7 @@
 
       const colourMode = rootEl.classList.contains(DARK_THEME_CLASS)
         ? DARK_THEME
-        : LIGHT_MODE;
+        : LIGHT_THEME;
 
       window.localStorage.setItem(COLOUR_MODE, colourMode);
     });
