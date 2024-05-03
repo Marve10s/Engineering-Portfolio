@@ -5,8 +5,8 @@ subtitle: 'Humans are multi-faceted. Beyond technology, I indulge in the followi
 poster: '/images/road-trip.avif'
 ---
 
-- 5x Marathoner
-- Olympic gold medalist
-- Fashion model
-- Michelin star restaurant owner
-- Adviser to vise president
+- Nature Walks: Exploring forests, parks, beaches.
+- Cooking Adventures: Trying new recipes, culinary experiments.
+- Artistic Expression: Painting, drawing, sculpting, creative outlets.
+- Physical Exercise: Gym, running, yoga, fitness routines.
+- Reading Books: Immersing in stories, different worlds, ideas.
