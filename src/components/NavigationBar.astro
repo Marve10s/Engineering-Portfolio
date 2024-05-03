@@ -52,7 +52,11 @@ import ThemeToggler from '../components/ThemeToggler.astro';
 <script>
   const { pathname } = window.location;
 
-  const activeNavEl = document.querySelector(`nav a[href="${pathname}"]`);
+  const navLinks = document.querySelectorAll('nav a');
 
-  activeNavEl && activeNavEl.classList.add('active');
+  navLinks.forEach(link => {
+    if (link.getAttribute('href') === pathname) {
+      link.classList.add('active');
+    }
+  });
 </script>
